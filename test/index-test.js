@@ -8,11 +8,11 @@ const path = require('path')
 describe('index', () => {
 
   jsdom({
-    //src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
+    src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
   })
 
 
   it('runs', () => {
-    expect(true).to.be.true
+  //  expect(true).to.be.true
   })
 })
